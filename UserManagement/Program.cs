@@ -22,4 +22,14 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+app.UseEndpoints(endpoints =>
+{
+    // Login sayfasýný varsayýlan olarak ayarla
+    endpoints.MapGet("/", context =>
+    {
+        context.Response.Redirect("/Login");
+        return Task.CompletedTask;
+    });
+});
+
 app.Run();
