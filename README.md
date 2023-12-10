@@ -2,8 +2,7 @@
 
 ![Proje Resmi](images/startimages.png)
 
-
-Bu doküman, kullanıcı yönetimi işlemlerini açıklamaktadır. İşlemler arasında kullanıcı ekleme, güncelleme, silme ve listeleme yer almaktadır.
+Bu repo, .NET Core ve ASP.NET Core kullanılarak geliştirilen modern ve güvenli bir kullanıcı yönetimi sistemini içermektedir. Sistem, kullanıcı kaydı, girişi, bilgi güncellemesi ve silme işlemlerini desteklemekte olup, aynı zamanda kullanıcı etkinliklerini loglama ve yönetme özellikleri sunmaktadır. Arayüz tasarımında HTML, CSS ve JavaScript teknolojileri kullanılmış, veritabanı olarak PostgreSQL entegre edilmiştir. Güvenlik, veri doğrulama ve kullanıcı dostu arayüz tasarımı projenin ana odak noktalarıdır.
 
 ## İçindekiler
 
