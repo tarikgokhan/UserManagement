@@ -12,8 +12,24 @@ Bu repo, .NET Core ve ASP.NET Core kullanılarak geliştirilen modern ve güvenl
   - [Kullanıcı Güncelleme](#kullanıcı-güncelleme)
   - [Kullanıcı Silme](#kullanıcı-silme)
   - [Kullanıcı Listeleme](#kullanıcı-listeleme)
-  
-  
+## Kullanıcı Bilgileri 
+Id (int)
+Adı (30)
+Soyadı (30)
+Email (30)
+Kullanıcı Adı (30)
+Şifre (30)
+Kullanıcı Durumu (int)
+Kullanıcı Tipi (int)
+
+##Kullanıcı Durumları
+- 0 - Pasif
+- 1 - Aktif
+- 2 Onay Bekliyor
+- 3 Lock
+## Kullanıcı Tipleri
+  -1 Admin
+  -2 User
 ## Login 
 
 ![Login Ekranı](images/loginpage.PNG)
